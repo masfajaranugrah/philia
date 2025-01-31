@@ -37,7 +37,7 @@ const Card = () => {
                 </div>
               </div>
 
-              <div className="flex md:justify-start md:items-start flex-col lg:w-full md:w-full xl:w-full w-[140px] xl:px-4 md:px-7 w-full mb-7">
+              <div className="flex md:justify-start md:items-start flex-col lg:w-full md:w-full xl:w-full w-[46%] xl:px-4 md:px-7   mb-7">
                     <button
                   type="button"
                   class="gap-2 text-[20px] mt-4 text-center focus:outline-none disabled text-white bg-[#0A2D19] focus:ring-4 focus:ring-green-300   rounded-lg
@@ -78,7 +78,7 @@ const Card = () => {
                 </div>
               </div>
 
-              <div className="flex md:justify-start md:items-start flex-col lg:w-full md:w-full xl:w-full  w-[140px]  xl:px-4 md:px-7 w-full mb-7">
+              <div className="flex md:justify-start md:items-start flex-col lg:w-full md:w-full xl:w-full  w-[140px]  xl:px-4 md:px-7  mb-7">
                     <button
                   type="button"
                   class="gap-2 text-[20px] mt-4 text-center focus:outline-none disabled text-white bg-[#0A2D19] focus:ring-4 focus:ring-green-300   rounded-lg
@@ -119,7 +119,7 @@ const Card = () => {
                 </div>
               </div>
 
-              <div className="flex md:justify-start md:items-start flex-col lg:w-full md:w-full xl:w-full  w-[140px]  xl:px-4 md:px-7 w-full mb-7">
+              <div className="flex md:justify-start md:items-start flex-col lg:w-full md:w-full xl:w-full  w-[140px]  xl:px-4 md:px-7  mb-7">
                     <button
                   type="button"
                   class="gap-2 text-[20px] mt-4 text-center focus:outline-none disabled text-white bg-[#0A2D19] focus:ring-4 focus:ring-green-300   rounded-lg
@@ -160,7 +160,7 @@ const Card = () => {
                 </div>
               </div>
 
-              <div className="flex md:justify-start md:items-start flex-col lg:w-full md:w-full xl:w-full  w-[140px]  xl:px-4 md:px-7 w-full mb-7">
+              <div className="flex md:justify-start md:items-start flex-col lg:w-full md:w-full xl:w-full  w-[140px]  xl:px-4 md:px-7  mb-7">
                     <button
                   type="button"
                   class="gap-2 text-[20px] mt-4 text-center focus:outline-none disabled text-white bg-[#0A2D19] focus:ring-4 focus:ring-green-300   rounded-lg
