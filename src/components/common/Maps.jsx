@@ -5,7 +5,7 @@ const Maps = () => {
     <div className='container mx-auto'>
  
 <div className="text-center">
-<p className="text-black text-center text-[40px] font-[Montserrat] font-[1000] my-10">
+<p className="text-black text-center text-[30px] lg:text-[40px] font-[Montserrat] font-[1000] mb-10">
 SITE MAP
       </p>
 </div>

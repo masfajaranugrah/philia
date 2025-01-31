@@ -29,13 +29,13 @@ export default function Rasa() {
   <div className="flex items-center justify-center relative my-10">
   
     {/* Teks */}
-    <p className="text-black text-[30px] lg:text-[40px] font-[Montserrat] font-[1000]">
+    <p className="text-black text-[30px] lg:text-[40px] font-[Montserrat] text-center font-[1000]">
       RASAKAN KESERUANNYA!
     </p>
   </div>
 
             
-<div className="grid  grid-cols-1 lg:grid-cols-3 gap-4 container my-20 mx-auto w-full">
+<div className="grid  grid-cols-1 lg:grid-cols-3 gap-4 container  mx-auto w-full">
 
 
 

@@ -97,7 +97,7 @@ export default function People() {
   return (
     <div className="w-full   mx-auto h-[40rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
       <div className="text-center">
-      <p className="text-black text-center text-[40px] font-[Montserrat] font-[1000] my-10">
+      <p className="text-black text-center text-[30px] lg:text-[40px] font-[Montserrat] font-[1000] my-10">
     PEOPLE EXPERIENCES</p>
       </div>
 

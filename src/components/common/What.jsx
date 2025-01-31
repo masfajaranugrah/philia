@@ -21,7 +21,7 @@ function What() {
   return (
     
     <div className=" container mx-auto flex flex-col items-center">
-      <p className="text-black text-center text-[40px] font-[Montserrat] font-[1000] my-10">
+      <p className="text-black text-center text-[30px] lg:text-[40px] px-2 font-[Montserrat] font-[1000] my-10">
         WHAT’S ON PHILIA TODAY
       </p>
 

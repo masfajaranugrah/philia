@@ -7,9 +7,12 @@ function Kunjungan() {
   return (
     <div className="relative  min-h-screen flex flex-col justify-center items-center">
       {/* Judul */}
-      <h1 className="text-black text-[24px] font-bold mb-8 z-[10]">
-        KUNJUNGI PHILIA SEKARANG!
-      </h1>
+       
+        <div className="text-center">
+      <p className="text-black text-center text-[30px] lg:text-[40px] font-[Montserrat] font-[1000] my-10">
+           KUNJUNGI PHILIA SEKARANG!
+</p>
+      </div>
       {/* Grid Card */}
       <div className="grid grid-cols-1  mb-[6rem] xl:mb-[30rem] px-2 lg:mb-[30rem] md:mb-[20rem] gap-6 md:grid-cols-2 z-[10]">
         {/* Card 1 */}
