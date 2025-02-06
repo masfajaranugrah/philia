@@ -31,6 +31,7 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem
   }
+  
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
@@ -77,3 +78,40 @@
 body {
   background: #bedca9;
 }
+
+.wow {
+  visibility: visible !important;
+}
+
+.fc-daygrid-day-frame {
+  height: 90px !important; /* Sesuaikan tinggi untuk membuatnya lebih persegi */
+  min-height: 50px !important;
+}
+
+.fc-daygrid-day {
+  width: 30px !important; /* Sesuaikan lebar agar sama dengan tinggi */
+  min-width: 50px !important;
+}
+
+.bg-primary-subtle{
+  background-color:#5a58eb ;
+  border: none;
+}
+
+.bg-danger-subtle{
+  background-color: red;
+  border: none;
+}
+.bg-info-subtle {
+  background-color: #2dcb73;
+  border: none;
+ 
+}
+ 
+.bg-dark-subtle {
+  background-color: #83e8ff;
+}
+.bg-warning-subtle {
+  background-color: #ffe592;
+}
+ 

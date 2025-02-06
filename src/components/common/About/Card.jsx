@@ -1,112 +1,63 @@
 import React from "react";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
+
+const cardVariants = {
+  hidden: { opacity: 0, scale: 0.9 },
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+};
 
 const Card = () => {
   return (
     <div className="relative">
+      <div>
+      
+      </div>
       {/* Main Content */}
-      <div className="container mx-auto relative z-10 pb-[10rem] lg:pb-[40rem] xl:pb-[38rem] md:pb-[20rem] md:px-[2rem] lg:px-[10rem] xl:px-[10rem] px-[2rem]">
+      <div className="container mx-auto relative z-10 pb-[10rem] lg:pb-[20rem] md:pb-[10rem] md:px-[1rem] lg:px-[40rem] xl:px-[2rem] px-[2rem]">
         {/* Card Section */}
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 mt-10">
-          {/* Card 1 */}
-          <div className="flex flex-col md:flex-row items-center justify-center rounded-3xl shadow-[8px_8px_0px_#000000] bg-white">
-  {/* Gambar */}
-  <div className="w-full   pt-10 md:pt-0 flex justify-center  ">
-    <img
-      src="/images/pohon.png"
-      alt="Pohon"
-      className="h-40 w-40 pl-4 md:pl-0"
-    />
-  </div>
+          {[...Array(4)].map((_, index) => (
+            <motion.div
+              key={index}
+              variants={cardVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.3 }}
+              className="rounded-3xl shadow-[8px_8px_0px_#000000] bg-white"
+            >
+              <div className="flex flex-col px-2 md:px-10 xl:px-10 lg:px-10 items-center justify-center">
+                {/* Gambar */}
+                <div className="flex flex-col md:flex-row xl:flex-row lg:flex-row">
+                  <div className="w-full pt-10 flex justify-center">
+                    <img
+                      src="/images/pohon.png"
+                      alt="pohon"
+                      className="h-28 w-28 xl:h-40 xl:w-40 md:h-40 md:w-40 lg:h-28 lg:w-28 pl-4 md:pl-0"
+                    />
+                  </div>
 
-  {/* Teks */}
-  <div className="p-6  ">
-    <h4 className="mb-2 text-[20px] text-center lg:text-left xl:text-left md:text-left  font-bold text-blue-gray-900">
-      Insert Name
-    </h4>
-    <p className="text-[18px] xl:text-[15px] lg:text-[15px] md:text-[20px] text-center lg:text-left xl:text-left md:text-left  text-gray-700">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-  </div>
-            </div>
+                  {/* Teks */}
+                  <div className="p-6 flex md:justify-start md:items-start flex-col">
+                    <h4 className="mb-2 text-[20px] md:text-[40px] lg:text-[40px] text-center font-bold text-blue-gray-900">
+                      Kedai Philia
+                    </h4>
+                    <p className="text-[16px] md:text-[20px] xl:text-[20px] text-center xl:text-start lg:text-start md:text-start text-gray-700">
+                      Tempat makan seru dengan banyak pilihan makanan dan minuman lezat. Kamu bisa duduk santai sambil menikmati hidangan favoritmu di sini!
+                    </p>
+                  </div>
+                </div>
 
-
-          {/* Card 2 */}
-          <div className="flex flex-col md:flex-row items-center justify-center rounded-3xl shadow-[8px_8px_0px_#000000] bg-white">
-  {/* Gambar */}
-  <div className="w-full   pt-10 md:pt-0 flex justify-center  ">
-    <img
-      src="/images/pohon.png"
-      alt="Pohon"
-      className="h-40 w-40 pl-4 md:pl-0"
-    />
-  </div>
-
-  {/* Teks */}
- <div className="p-6  ">
-    <h4 className="mb-2 text-[20px] text-center lg:text-left xl:text-left md:text-left  font-bold text-blue-gray-900">
-      Insert Name
-    </h4>
-    <p className="text-[18px] xl:text-[15px] lg:text-[15px] md:text-[20px] text-center lg:text-left xl:text-left md:text-left  text-gray-700">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-  </div>
-            
-            </div>
-          {/* Card 3 */}
-          <div className="flex flex-col md:flex-row items-center justify-center rounded-3xl shadow-[8px_8px_0px_#000000] bg-white">
-  {/* Gambar */}
-  <div className="w-full   pt-10 md:pt-0 flex justify-center  ">
-    <img
-      src="/images/pohon.png"
-      alt="Pohon"
-      className="h-40 w-40 pl-4 md:pl-0"
-    />
-  </div>
-
-  {/* Teks */}
- <div className="p-6  ">
-    <h4 className="mb-2 text-[20px] text-center lg:text-left xl:text-left md:text-left  font-bold text-blue-gray-900">
-      Insert Name
-    </h4>
-    <p className="text-[18px] xl:text-[15px] lg:text-[15px] md:text-[20px] text-center lg:text-left xl:text-left md:text-left  text-gray-700">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-  </div>
-            
-            </div>
-
-          {/* Card 4 */}
-          <div className="flex flex-col md:flex-row items-center justify-center rounded-3xl shadow-[8px_8px_0px_#000000] bg-white">
-  {/* Gambar */}
-  <div className="w-full   pt-10 md:pt-0 flex justify-center  ">
-    <img
-      src="/images/pohon.png"
-      alt="Pohon"
-      className="h-40 w-40 pl-4 md:pl-0"
-    />
-  </div>
-
-  {/* Teks */}
- <div className="p-6  ">
-    <h4 className="mb-2 text-[20px] text-center lg:text-left xl:text-left md:text-left  font-bold text-blue-gray-900">
-      Insert Name
-    </h4>
-    <p className="text-[18px] xl:text-[15px] lg:text-[15px] md:text-[20px] text-center lg:text-left xl:text-left md:text-left  text-gray-700">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-  </div>
-            
-            </div>
+                
+              </div>
+            </motion.div>
+          ))}
         </div>
       </div>
 
       {/* Fixed Background Image */}
-      <div className="absolute -bottom-1 w-full ">
-        <img
-          src="/images/01.png"
-          alt="Gambar wahana"
-          className="w-full h-full "
-        />
+      <div className="absolute -bottom-1 w-full">
+        <img src="/images/01.png" alt="Gambar wahana" className="w-full h-full" />
       </div>
     </div>
   );

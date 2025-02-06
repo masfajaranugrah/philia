@@ -2,6 +2,7 @@ import Navbar from '../components/common/Navbar';
 import Banner from '../components/common/Callender/Banner';
   import Footer from '../components/common/Footer';
 import CalendarEvent from '@/components/common/Callender/CalendarEvent';
+ import Whatsapp from './Whatsapp';
  
 
 function About() {
@@ -28,6 +29,7 @@ function About() {
     <div style={styles.appContainer}>
     <Navbar/>
     <Banner/>
+    <Whatsapp/>
     <CalendarEvent/>
      <Footer/>
     </div>

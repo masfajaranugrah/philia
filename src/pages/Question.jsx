@@ -2,6 +2,7 @@ import Navbar from '../components/common/Navbar';
 import According from '../components/common/Question/According';
 import Banner from '../components/common/Question/Banner';
  import Footer from '../components/common/Footer';
+import Whatsapp from './Whatsapp';
  
 
 function Questoin() {
@@ -29,7 +30,7 @@ function Questoin() {
     <Navbar/>
     <Banner/>
     <According/>
-    
+    <Whatsapp/>
     <Footer/>
     </div>
   )

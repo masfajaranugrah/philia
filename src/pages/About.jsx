@@ -3,6 +3,7 @@ import Banner from '../components/common/About/Banner';
 import _About from '../components/common/About/_About';
 import Card from '../components/common/About/Card';
 import Footer from '../components/common/Footer';
+import Whatsapp from './Whatsapp';
  
 
 function About() {
@@ -32,6 +33,7 @@ function About() {
     <_About/>
     <Card/>
     <Footer/>
+    <Whatsapp/>
     </div>
   )
 }

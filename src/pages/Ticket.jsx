@@ -2,6 +2,7 @@ import Navbar from '../components/common/Navbar';
 import Banner from '../components/common/Ticket/Banner';
  import Card from '../components/common/Ticket/Card';
 import Footer from '../components/common/Footer';
+import Whatsapp from './Whatsapp';
  
 
 function About() {
@@ -28,7 +29,7 @@ function About() {
     <div style={styles.appContainer}>
     <Navbar/>
     <Banner/>
- 
+    <Whatsapp/>
     <Card/>
     <Footer/>
     </div>

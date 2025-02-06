@@ -3,6 +3,7 @@ import Banner from '../components/common/Wahana/Banner';
 import Maps from '../components/common/Maps';
 import Card from '../components/common/Wahana/Card';
 import Footer from '../components/common/Footer';
+import Whatsapp from './Whatsapp';
  
 
 function Wahana() {
@@ -31,6 +32,7 @@ function Wahana() {
     <Banner/>
     <Maps/>
    <Card/>
+   <Whatsapp/>
     <Footer/>
     </div>
   )
